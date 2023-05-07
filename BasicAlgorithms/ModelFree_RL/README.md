@@ -24,7 +24,7 @@ However, the monte carlo only needs to sample the average future return of state
 
 ![image](https://user-images.githubusercontent.com/91216581/206213954-02652d2d-4ec5-4832-afcb-32e268d3e30b.png)
 
-### TD Algorithm summary
+#### TD Algorithm summary
 TD tends to reduce the estimation error of value along the attempts. It's more intuitive, since we can't forsee the end of the story in most cases, and the way we learn is to get the feedbacks from the world and modify our value table knowleadges. 
 
 ![Screenshot 2022-12-07 at 16 59 17](https://user-images.githubusercontent.com/91216581/206228142-c93da78c-b605-4f6a-88eb-d029c4bae18f.png)
