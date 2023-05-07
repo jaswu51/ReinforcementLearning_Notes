@@ -1,17 +1,17 @@
 # Reinforcement_Learning_Lecture_Notes 
 
 
-## Value Network vs Policy Network
+## Overview: Value Network vs Policy Network
 Value Network examples: Q-learning, DQN(The agent's brain in Q-learning is the Q-table, but in DQN the agent's brain is a deep neural network), SARSA[on-policy]
 
 Policy Network examples: REINFORCE (Monte Carlo)[on-policy], Actor-Critic, TRPO (clip gradients), PPO  (clip gradients), DPG (Continuous control, two deterministic policy network, one for mean value of continous actions, the other for variance, ), DDPG
 
 
-## Dynamic Programming vs Monte Carlo simulations vs Temperal Difference 
+### Dynamic Programming vs Monte Carlo simulations vs Temperal Difference 
 Those are 3 ways to utilize the detected rewards to guess unknown values. Only we have the value model, we can optimize our behaviors/actions. 
 
 
-### Dynamic prgramming summary
+#### Dynamic prgramming summary
 It requies the full knowledge of transition probility matrix, which is the probility from state s to all the posible states s', so that it can average all the possible returns, as showed below. 
 
 ![image](https://user-images.githubusercontent.com/91216581/232410332-c939bd56-5f05-41b0-bceb-ab771e99b966.png)
@@ -19,7 +19,7 @@ It requies the full knowledge of transition probility matrix, which is the probi
 ![image](https://user-images.githubusercontent.com/91216581/206213936-43cf218f-e40f-4d46-8dff-90b8db5a0285.png)
 
 
-### Monte Carlo summary
+#### Monte Carlo summary
 However, the monte carlo only needs to sample the average future return of state s under sample trajectories from past experience. 
 
 ![image](https://user-images.githubusercontent.com/91216581/206213954-02652d2d-4ec5-4832-afcb-32e268d3e30b.png)
