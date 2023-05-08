@@ -54,4 +54,7 @@ The agent's brain in Q-learning is the Q-table, but in DQN the agent's brain is 
 
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/91216581/236658197-447135a1-92e1-4c12-a865-b80e3946416a.png">
 
+### to do
+https://zhuanlan.zhihu.com/p/36494307
+
 
